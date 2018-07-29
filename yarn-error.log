@@ -1,0 +1,30 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add vue-chartjs chart.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/vue-chartjs/-/vue-chartjs-3.3.1.tgz: ETIMEDOUT
+      at Timeout._onTimeout (/usr/share/yarn/lib/cli.js:135339:19)
+      at ontimeout (timers.js:482:11)
+      at tryOnTimeout (timers.js:317:5)
+      at Timer.listOnTimeout (timers.js:277:5)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
